@@ -8,7 +8,7 @@ This repository implements an API to manage a cooking recipe book. The API is no
 
 ### User stories
 
-- As a user, I would like to save a new receipt in the database
+- As a user, I would like to save a new recipe in the database
 - As a user, I would like to store the cooking time (in minutes)
 - As a user, I would like to find recipes according to some filters:
     - Given a list of ingredients, I would like to know all recipes I can cook.
