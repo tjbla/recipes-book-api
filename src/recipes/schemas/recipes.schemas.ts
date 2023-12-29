@@ -20,8 +20,11 @@ export class Recipe {
   @Prop({ type: String })
   description: string;
 
+  @Prop({ type: Number })
+  cookingTime: number; 
+
   @Prop({ type: String })
-  difficulty: any;
+  difficulty: RecipeDifficultyEnum;
 }
 
 export const RecipeSchema = SchemaFactory.createForClass(Recipe);
